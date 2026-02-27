@@ -43,4 +43,4 @@ contract SimpleStorage {
 
     // Variables in Solidity can be initialized without initially being assigned a value, similar to
     // { let name } in JavaScript
-};
+}

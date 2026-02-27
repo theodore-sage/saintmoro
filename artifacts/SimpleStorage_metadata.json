@@ -4,7 +4,60 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrievePure",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity Development Course/Course 1/SimpleStorage.sol": "SimpleStorage"
+			"Solidity Development Course/Course 1/L2-Functions.sol": "SimpleStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Solidity Development Course/Course 1/SimpleStorage.sol": {
-			"keccak256": "0x805ecfd0a42cf2dfb7b67a6eef7c6e4dab39411cbd6f2fc74e305f565c396964",
+		"Solidity Development Course/Course 1/L2-Functions.sol": {
+			"keccak256": "0x52997fb552da79b9c587a52d0e482a251ade57a35090ad11ee3eacf5e79a2aa0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b9c44f095e8094bfeb787f9f2d7d067e3b45e219e9222de73eb75a9f5d3f01df",
-				"dweb:/ipfs/QmRwMDotuHwsx3moWVUEvpjwDoLspGTnwWpVQ61RQ2r9SV"
+				"bzz-raw://3cdbbe19d9827811017cad0e8f0f30df7be06139a3ec691b1fc5879408d3423b",
+				"dweb:/ipfs/QmYMLZ1w2bqhNboMkD4berLQMDSkGB4KuU2tarsC8YGicK"
 			]
 		}
 	},
