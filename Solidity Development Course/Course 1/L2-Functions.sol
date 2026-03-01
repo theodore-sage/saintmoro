@@ -22,7 +22,7 @@ contract SimpleStorage {
     }
 
     // retrieve() function will reads the variable and does not write
-    // the 'view' argument listed in a function will only read the state,
+    // the 'view' argument listed in a function will only read the state, and
     // the 'view' argument does not allow any modification to the state of the contract.
 
     function retrieve() public view returns(uint256){
